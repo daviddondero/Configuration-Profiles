@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>com.mozillaBBBC9662-37B0-4A80-9C8B-DB3ECCE8A11C</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadOrganization</key>
+    <string>Company Name</string>
+    <key>PayloadIdentifier</key>
+    <string>com.mozillaBBBC9662-37B0-4A80-9C8B-DB3ECCE8A11C</string>
+    <key>PayloadDisplayName</key>
+    <string>Privacy Settings Whitelist - Shells and Python</string>
+    <key>PayloadDescription</key>
+    <string/>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>Company Name</string>
+        <key>PayloadType</key>
+        <string>com.apple.TCC.configuration-profile-policy</string>
+        <key>PayloadOrganization</key>
+        <string>Company Name</string>
+        <key>PayloadIdentifier</key>
+        <string>com.mozilla.E306D963-ACAF-11E8-B698-F200D0694A03</string>
+        <key>PayloadDisplayName</key>
+        <string>Shells and  Python System Events Whitelist</string>
+        <key>PayloadDescription</key>
+        <string>Privacy Settings Whitelist - Shells and Python</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>Services</key>
+        <dict>
+          <key>AppleEvents</key>
+          <array>
+            <dict>
+              <key>Comment</key>
+              <string>Allow bash to send AppleEvents control to System Events</string>
+              <key>Identifier</key>
+              <string>/bin/bash</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.bash" and anchor apple</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.systemevents</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.systemevents" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+            <dict>
+              <key>Comment</key>
+              <string>Allow csh to send AppleEvents control to System Events</string>
+              <key>Identifier</key>
+              <string>/bin/csh</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.tcsh" and anchor apple</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.systemevents</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.systemevents" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+            <dict>
+              <key>Comment</key>
+              <string>Allow ksh to send AppleEvents control to System Events</string>
+              <key>Identifier</key>
+              <string>/bin/ksh</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.ksh" and anchor apple</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.systemevents</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.systemevents" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+            <dict>
+              <key>Comment</key>
+              <string>Allow sh to send AppleEvents control to System Events</string>
+              <key>Identifier</key>
+              <string>/bin/sh</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.sh" and anchor apple</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.systemevents</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.systemevents" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+            <dict>
+              <key>Comment</key>
+              <string>Allow tcsh to send AppleEvents control to System Events</string>
+              <key>Identifier</key>
+              <string>/bin/tcsh</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.tcsh" and anchor apple</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.systemevents</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.systemevents" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+            <dict>
+              <key>Comment</key>
+              <string>Allow zsh to send AppleEvents control to System Events</string>
+              <key>Identifier</key>
+              <string>/bin/zsh</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.zsh" and anchor apple</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.systemevents</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.systemevents" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+            <dict>
+              <key>Comment</key>
+              <string>Allow python to send AppleEvents control to System Events</string>
+              <key>Identifier</key>
+              <string>/usr/bin/python</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.pythonw" and anchor apple</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.systemevents</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.systemevents" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+            <dict>
+              <key>Comment</key>
+              <string>Allow bash to send AppleEvents control to SystemUIServer</string>
+              <key>Identifier</key>
+              <string>/bin/bash</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.bash" and anchor apple</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.systemuiserver</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.systemuiserver" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+            <dict>
+              <key>Comment</key>
+              <string>Allow csh to send AppleEvents control to SystemUIServer</string>
+              <key>Identifier</key>
+              <string>/bin/csh</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.tcsh" and anchor apple</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.systemuiserver</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.systemuiserver" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+            <dict>
+              <key>Comment</key>
+              <string>Allow ksh to send AppleEvents control to SystemUIServer</string>
+              <key>Identifier</key>
+              <string>/bin/ksh</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.ksh" and anchor apple</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.systemuiserver</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.systemuiserver" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+            <dict>
+              <key>Comment</key>
+              <string>Allow sh to send AppleEvents control to SystemUIServer</string>
+              <key>Identifier</key>
+              <string>/bin/sh</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.sh" and anchor apple</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.systemuiserver</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.systemuiserver" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+            <dict>
+              <key>Comment</key>
+              <string>Allow tcsh to send AppleEvents control to SystemUIServer</string>
+              <key>Identifier</key>
+              <string>/bin/tcsh</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.tcsh" and anchor apple</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.systemuiserver</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.systemuiserver" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+            <dict>
+              <key>Comment</key>
+              <string>Allow zsh to send AppleEvents control to SystemUIServer</string>
+              <key>Identifier</key>
+              <string>/bin/zsh</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.zsh" and anchor apple</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.systemuiserver</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.systemuiserver" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+            <dict>
+              <key>Comment</key>
+              <string>Allow python to send AppleEvents control to SystemUIServer</string>
+              <key>Identifier</key>
+              <string>/usr/bin/python</string>
+              <key>AEReceiverIdentifierType</key>
+              <string>bundleID</string>
+              <key>CodeRequirement</key>
+              <string>identifier "com.apple.python" and anchor apple</string>
+              <key>AEReceiverIdentifier</key>
+              <string>com.apple.systemuiserver</string>
+              <key>IdentifierType</key>
+              <string>path</string>
+              <key>AEReceiverCodeRequirement</key>
+              <string>identifier "com.apple.systemuiserver" and anchor apple</string>
+              <key>Allowed</key>
+              <true/>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

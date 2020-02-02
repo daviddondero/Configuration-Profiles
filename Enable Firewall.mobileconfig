@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>E26970BC-DED3-4247-A081-D92130661933</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadOrganization</key>
+    <string>Company Name</string>
+    <key>PayloadIdentifier</key>
+    <string>E26970BC-DED3-4247-A081-D92130661933</string>
+    <key>PayloadDisplayName</key>
+    <string>Enable Firewall</string>
+    <key>PayloadDescription</key>
+    <string/>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>FA448564-BD26-4821-9DC2-84120FB51012</string>
+        <key>PayloadType</key>
+        <string>com.apple.ManagedClient.preferences</string>
+        <key>PayloadOrganization</key>
+        <string>Company Name</string>
+        <key>PayloadIdentifier</key>
+        <string>FA448564-BD26-4821-9DC2-84120FB51012</string>
+        <key>PayloadDisplayName</key>
+        <string>Custom</string>
+        <key>PayloadDescription</key>
+        <string/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>PayloadContent</key>
+        <dict>
+          <key>com.apple.security.firewall</key>
+          <dict>
+            <key>Forced</key>
+            <array>
+              <dict>
+                <key>mcx_preference_settings</key>
+                <dict>
+                  <key>PayloadScope</key>
+                  <string>System</string>
+                  <key>PayloadDescription</key>
+                  <string/>
+                  <key>PayloadOrganization</key>
+                  <string>Company Name</string>
+                  <key>PayloadIdentifier</key>
+                  <string>39E7E3BB-F5E4-4AD0-97DD-9FB503BD5DE5</string>
+                  <key>PayloadRemovalDisallowed</key>
+                  <true/>
+                  <key>PayloadContent</key>
+                  <array>
+                    <dict>
+                      <key>Applications</key>
+                      <array>
+                        <dict>
+                          <key>BundleID</key>
+                          <string>com.apple.RemoteDesktop</string>
+                          <key>Allowed</key>
+                          <true/>
+                        </dict>
+                      </array>
+                      <key>PayloadDescription</key>
+                      <string/>
+                      <key>PayloadOrganization</key>
+                      <string>Company Name</string>
+                      <key>PayloadIdentifier</key>
+                      <string>6FAAAE1C-9A04-47F7-B274-151DB77B58FG</string>
+                      <key>EnableFirewall</key>
+                      <true/>
+                      <key>PayloadEnabled</key>
+                      <true/>
+                      <key>BlockAllIncoming</key>
+                      <false/>
+                      <key>PayloadVersion</key>
+                      <integer>1</integer>
+                      <key>PayloadUUID</key>
+                      <string>6FAAAE1C-9A04-47F7-B274-151DB77B58FG</string>
+                      <key>EnableStealthMode</key>
+                      <true/>
+                      <key>PayloadType</key>
+                      <string>com.apple.security.firewall</string>
+                      <key>PayloadDisplayName</key>
+                      <string>Enable Firewall</string>
+                    </dict>
+                  </array>
+                  <key>PayloadEnabled</key>
+                  <true/>
+                  <key>PayloadVersion</key>
+                  <integer>1</integer>
+                  <key>PayloadUUID</key>
+                  <string>39E7E3BB-F5E4-4AD0-97DD-9FB503BD5DE5</string>
+                  <key>PayloadType</key>
+                  <string>Configuration</string>
+                  <key>PayloadDisplayName</key>
+                  <string>Enable Firewall</string>
+                </dict>
+              </dict>
+            </array>
+          </dict>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

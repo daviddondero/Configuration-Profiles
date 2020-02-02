@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Granting Zoom access to the Downloads folder</string>
+			<key>PayloadDisplayName</key>
+			<string>Privacy Settings Whitelist - Zoom: Access to Downloads Folder</string>
+			<key>PayloadIdentifier</key>
+			<string>37802CE0-6FFE-418E-8734-9C95A8110403</string>
+			<key>PayloadOrganization</key>
+			<string>Company Name</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>8D3EA6E7-9FB6-45AC-9CEE-20E2C2D64DF3</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyDownloadsFolder</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "us.zoom.xos" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = BJ4HAAB9B3</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>us.zoom.xos</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Granting Zoom access to the Downloads folder</string>
+	<key>PayloadDisplayName</key>
+	<string>Privacy Settings Whitelist - Zoom: Access to Downloads Folder</string>
+	<key>PayloadIdentifier</key>
+	<string>37802CE0-6FFE-418E-8734-9C95A8110403</string>
+	<key>PayloadOrganization</key>
+	<string>Company Name</string>
+	<key>PayloadType</key>
+	<string>com.apple.TCC.configuration-profile-policy</string>
+	<key>PayloadUUID</key>
+	<string>9EF31304-F16F-408F-BCDB-2DF22E12303B</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>payloadScope</key>
+	<string>system</string>
+</dict>
+</plist>
